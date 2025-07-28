@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+
+    max-width: 660px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    border: 1px solid gray;
+    padding: 16px;
+}
+
+.header {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.header h1 {
+    width: 100%;
+    font-size: 24px;
+}
+
+.header img {
+    width: 50px;
+}
+
+.forms {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.forms input {
+    padding: 8px 12px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.forms button {
+    background-color: green;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.tabela {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tabela th {
+
+    border-bottom: 2px solid black;
+    line-height: 40px;
+
+}
+
+.tabela tbody img {
+    width: 32px;
+}
+
+.tabela tbody {
+    line-height: 40px;
+
+}
+
+.tabela tfoot tr {
+    font-weight: bold;
+    line-height: 62px;
+}
+
+#result {
+    color: green;
+}

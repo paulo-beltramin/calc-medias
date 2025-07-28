@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora de médias</title>
+</head>
+
+<body>
+    <main class="container">
+        <!-- cabeçalho da pagina -->
+        <header class="header">
+
+            <img src="./images/logo.png" alt="logo do h1">
+            <h1>Calculadora de médias</h1>
+
+        </header>
+
+        <!-- formulario -->
+        <form class="forms">
+            <input type="text" placeholder="Nome da atividade" required>
+            <input type="number" placeholder="Nota" required>
+            <button>Adicionar <span>+</span></button>
+        </form>
+
+        <!-- tabela -->
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Nome da atividade</th>
+                    <th>Nota</th>
+                    <th>Resultado?</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>atividade a</td>
+                    <td>7</td>
+                    <td><img src="./images//aprovado.png" alt="emoji"></td>
+                </tr>
+
+                 <tr>
+                    <td>atividade a</td>
+                    <td>7</td>
+                    <td><img src="./images//aprovado.png" alt="emoji"></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Nota média</td>
+                    <td>7</td>
+                    <td id="result">Aprovado</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+</body>
+
+</html>
