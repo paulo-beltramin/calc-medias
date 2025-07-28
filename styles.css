@@ -88,6 +88,10 @@ body {
     line-height: 62px;
 }
 
-#result {
+.aprovado {
     color: green;
+}
+
+.reprovado {
+    color: red;
 }

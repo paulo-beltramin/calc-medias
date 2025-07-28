@@ -19,10 +19,10 @@
         </header>
 
         <!-- formulario -->
-        <form class="forms">
-            <input type="text" placeholder="Nome da atividade" required>
-            <input type="number" placeholder="Nota" required>
-            <button>Adicionar <span>+</span></button>
+        <form class="forms" id="formulario">
+            <input type="text" placeholder="Nome da atividade" required id="nome-atividade">
+            <input type="number" placeholder="Nota"  id="nota-atividade">
+            <button >Adicionar <span>+</span></button>
         </form>
 
         <!-- tabela -->
@@ -35,30 +35,16 @@
                 </tr>
             </thead>
 
-            <tbody>
-                <tr>
-                    <td>atividade a</td>
-                    <td>7</td>
-                    <td><img src="./images//aprovado.png" alt="emoji"></td>
-                </tr>
-
-                 <tr>
-                    <td>atividade a</td>
-                    <td>7</td>
-                    <td><img src="./images//aprovado.png" alt="emoji"></td>
-                </tr>
+            <tbody id="body">
+              
             </tbody>
 
-            <tfoot>
-                <tr>
-                    <td>Nota média</td>
-                    <td>7</td>
-                    <td id="result">Aprovado</td>
-                </tr>
+            <tfoot id="foot">
+              
             </tfoot>
         </table>
     </main>
 
 </body>
-
+  <script src="index.js"></script>
 </html>
