@@ -10,9 +10,7 @@ forms.addEventListener("submit", (e) => {
     addActivity()
     calculateAverage()
 
-
 })
-
 
 function addActivity() {
 
@@ -21,6 +19,7 @@ function addActivity() {
     const body = document.getElementById("body")
 
     const tr = document.createElement("tr")
+
 
     notas.push(parseFloat(nota_atividade))
 
@@ -42,10 +41,11 @@ function addActivity() {
       ${nota_atividade >= 7 ? "<img src='./images/aprovado.png' alt=''/>" : "<img src='./images/reprovado.png' alt=''/>"}
     </td>`
 
-    
 }
 
 function calculateAverage() {
+
+
     let sumAverage = 0
     for (let i = 0; i < notas.length; i++) {
         sumAverage += notas[i]
@@ -64,7 +64,7 @@ function calculateAverage() {
     foot.innerHTML =
         ` <td>Média Final</td>
     <td>${total.toFixed(1)}</td>
-    <td class="aprovado reprovado">${total >= 7 ? "Aprovado" : "Reprovado"}</td>
+    <td >${total >= 7 ?  "aprovado" :'Reprovado'}</td>
           `
 
 }
